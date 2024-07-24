@@ -96,6 +96,7 @@ export default definePlugin({
     name: "StealthLaunch",
     description: "Launches Discord in Stealth Mode, making you offline on launch.",
     authors: [{ name: "redbaron2k7", id: 1142923640778797157n }],
+    startAt: StartAt.Init,
     settings,
 
     start() {
