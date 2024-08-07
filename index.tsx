@@ -1,5 +1,4 @@
 import { Notices } from "@api/index";
-import { StartAt } from "@utils/types";
 import { definePluginSettings } from "@api/Settings";
 import definePlugin, { OptionType } from "@utils/types";
 import { React } from "@webpack/common";
@@ -97,7 +96,6 @@ export default definePlugin({
     name: "StealthLaunch",
     description: "Launches Discord in Stealth Mode, making you offline on launch.",
     authors: [{ name: "redbaron2k7", id: 1142923640778797157n }],
-    startAt: StartAt.Init,
     settings,
 
     start() {
